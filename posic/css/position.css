@@ -1,0 +1,53 @@
+.container {
+    display: inline-block;
+    background: url(../img/sol.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+    position: relative;
+}
+
+.div1 {
+    position: relative;
+    left: 20px;
+    top: 0px;
+
+    width: 30%;
+    height: 100px;
+    background: yellow;
+    display: inline-block;
+
+    z-index: 4;
+}
+
+.div2 {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    width: 30%;
+    height: 100px;
+    background: plum;
+    display: inline-block;
+}
+
+.div3 {
+    position: absolute;
+    top: 150px;
+    right: 220px;
+
+    width: 30%;
+    height: 100px;
+    background: red;
+    display: inline-block;
+}
+
+.whats {
+    background: green;
+    color: white;
+    width: 60px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
